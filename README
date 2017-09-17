@@ -2,20 +2,20 @@ PHPWebdriver
 
 Pruebas de adopcan
 
-Ir a la página: http://docs.seleniumhq.org/download/
+1) Ir a la página: http://docs.seleniumhq.org/download/
 
-Crear una carpeta, por ejemplo "rc"
+2) Crear una carpeta, por ejemplo "rc"
 
-Click en "Download version 3.5.3" (La última versión).
+3) Click en "Download version 3.5.3" (La última versión).
 
-Si se usa chrome, descargar "Google Chrome Driver" (Por defecto usa el firefox).
+4) Si se usa chrome, descargar "Google Chrome Driver" (Por defecto usa el firefox).
 
-Una vez descargados los archivos en "rc" selenium-server-standalone-3.5.2.jar (última versión) y chromedriver.exe (si no usa Firefox).
+5) Una vez descargados los archivos en "rc" selenium-server-standalone-3.5.2.jar (última versión) y chromedriver.exe (si no usa Firefox).
 
-Abrir la consola "cmd.exe"
+6) Abrir la consola "cmd.exe"
 
-Ubicarse en el camino donde se creó la carpeta "rc".
+7) Ubicarse en el camino donde se creó la carpeta "rc".
 
-Escribir y ejecutar: java -jar selenium-server-standalone-3.5.2.jar (dependiendo la versión descargada).
+8) Escribir y ejecutar: java -jar selenium-server-standalone-3.5.2.jar (dependiendo la versión descargada).
 
-Clonar la carpeta y hacer las modificaciones necesarias.
+9) Clonar la carpeta y hacer las modificaciones necesarias.
