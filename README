@@ -1,7 +1,21 @@
 PHPWebdriver 
 
-This is library for writing functional Selenium 2 Webdriver tests in Php.
-It works using JsonWireProtocol to comunicate with Selenium server.
+Pruebas de adopcan
 
+1) Ir a la página: http://docs.seleniumhq.org/download/
 
-To see how it works see test directory.
+2) Crear una carpeta, por ejemplo "rc"
+
+3) Click en "Download version 3.5.3" (La última versión).
+
+4) Si se usa chrome, descargar "Google Chrome Driver" (Por defecto usa el firefox).
+
+5) Una vez descargados los archivos en "rc" selenium-server-standalone-3.5.2.jar (última versión) y chromedriver.exe (si no usa Firefox).
+
+6) Abrir la consola "cmd.exe"
+
+7) Ubicarse en el camino donde se creó la carpeta "rc".
+
+8) Escribir y ejecutar: java -jar selenium-server-standalone-3.5.2.jar (dependiendo la versión descargada).
+
+9) Clonar la carpeta y hacer las modificaciones necesarias.
