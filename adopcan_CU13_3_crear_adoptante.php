@@ -9,9 +9,9 @@ $element[0] = $webdriver->findElementBy(LocatorStrategy::name, "username"); // E
 $element[1] = $webdriver->findElementBy(LocatorStrategy::name, "password");//fasunto1 
 
 if (!is_null($element)) {
-    $element[0]->sendKeys(array("alcidesarriola@hotmail.com") );
+    $element[0]->sendKeys(array("mail@gmail.com") );
     sleep(1);
-    $element[1]->sendKeys(array("alcidesarriola") );    
+    $element[1]->sendKeys(array("claveroja1") );    
     $element[1]->submit();
 
     // Una vez logueado, selecciono el link.
@@ -21,7 +21,7 @@ if (!is_null($element)) {
     sleep(1);
 
     // Selecciono editar Animales.
-    $element[3] = $webdriver->findElementBy(LocatorStrategy::linkText, "Voluntarios");
+    $element[3] = $webdriver->findElementBy(LocatorStrategy::linkText, "Adoptantes");
     // Hago click.   
     $element[3]->click();
     sleep(1);
@@ -99,7 +99,7 @@ if (!is_null($element)) {
     // No lleno el campo 'sexo'.
     $element[9] = $webdriver->findElementBy(LocatorStrategy::name, "email");
     // Hago click.
-    $element[9]->clear();
+    $element[9]->clear();    
     $element[9]->sendKeys(array("pguerra@gmail.com")); 
     sleep(1);
 
