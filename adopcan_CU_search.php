@@ -12,12 +12,24 @@ $element[3] = $webdriver->findElementBy(LocatorStrategy::name, "castrado");
 $element[4] = $webdriver->findElementBy(LocatorStrategy::name, "search");
 
 if (!is_null($element)) {
-    $element[0]->sendKeys(array("Macho") );
+    /*$element[0]->sendKeys(array("Macho") );
     $element[0]->click();
     sleep(2);
     $element[1]->sendKeys(array("3-6") );
     $element[2]->sendKeys(array("Manchado") );
     $element[3]->click();
+    $element[4]->click();
+
+    $element[0]->clear();
+    $element[1]->clear();
+    $element[2]->clear();*/
+
+    $element[0]->sendKeys(array("Macho") );
+    $element[0]->click();
+    $element[1]->sendKeys(array("0-2") );
+    $element[2]->sendKeys(array("") );
+    $element[3]->click();
+    sleep(1);
     $element[4]->click();
 }
 else{

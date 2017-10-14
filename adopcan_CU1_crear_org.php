@@ -15,7 +15,7 @@ if (!is_null($element)) {
     $element[1]->submit();
 
     // Una vez logueado, al entrar por primera vez registra la organización.
-    $element[3] = $webdriver->findElementBy(LocatorStrategy::name, "nombre");
+    $element[2] = $webdriver->findElementBy(LocatorStrategy::name, "nombre");
     $element[3] = $webdriver->findElementBy(LocatorStrategy::name, "direccion");
     $element[4] = $webdriver->findElementBy(LocatorStrategy::name, "telefono");
     $element[5] = $webdriver->findElementBy(LocatorStrategy::name, "email"); 

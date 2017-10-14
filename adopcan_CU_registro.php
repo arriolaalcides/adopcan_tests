@@ -27,11 +27,11 @@ if (!is_null($element)) {
     $element[4]->clear();
 
     sleep(1);
-    $element[0]->sendKeys(array("juan") );
-    $element[1]->sendKeys(array("perez") );
-    $element[2]->sendKeys(array("email@gmail.com") );
-    $element[3]->sendKeys(array("clave1") );
-    $element[4]->sendKeys(array("clave1") );
+    $element[0]->sendKeys(array("juana") );
+    $element[1]->sendKeys(array("dearco") );
+    $element[2]->sendKeys(array("emailnuevo@gmail.com") );
+    $element[3]->sendKeys(array("clave2") );
+    $element[4]->sendKeys(array("clave2") );
     $element[4]->submit();
 }
 else{
